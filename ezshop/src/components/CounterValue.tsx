@@ -7,7 +7,7 @@ export default function CounterValue() {
     const count = useAppSelector((state) => state.counter.value);
 
     return (
-        <div className='pr-4'>
+        <div className='pr-1'>
             {count}
         </div>
     )
