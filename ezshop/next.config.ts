@@ -1,11 +1,11 @@
-import type { NextConfig } from "next";
+/**
+ * @type {import('next').NextConfig}
+ */
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-module.exports = {
+const nextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -15,7 +15,7 @@ module.exports = {
         search: '',
       },
     ],
-  },
+  }
 }
 
-export default nextConfig;
+module.exports = nextConfig;

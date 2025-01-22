@@ -8,7 +8,7 @@ import React from "react";
 
 export default function Cart() {
   const cartItems = useAppSelector((state) => state.cart.cartItems);
-
+  //console.log(cartItems)
   const dispatch = useAppDispatch();
   function handleRemove(id: number) {
     dispatch(removeProductFromCart(id));
