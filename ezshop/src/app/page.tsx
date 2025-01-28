@@ -44,7 +44,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-                  <CounterValue /> Read our docs
+            <CounterValue/> Read our docs
           </a>
         </div>
       </main>
